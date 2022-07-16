@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
+# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
  
 import re, random, asyncio 
 from pyrogram import Client, filters
@@ -58,7 +58,7 @@ async def group_filters(client, update):
                 filename = f"{file.file_name}"
                 
                 if settings["button"]:
-                    btn.append([InlineKeyboardButton(f"[{filesize}] {filename}", callback_data=f'luciferGP#{file_id}')])
+                    btn.append([InlineKeyboardButton(f"{filesize}-📂-{filename}", callback_data=f'luciferGP#{file_id}')])
                 else:                    
                     btn.append([InlineKeyboardButton(f"{filesize}", callback_data=f'luciferGP#{file_id}'),
                                 InlineKeyboardButton(f"{filename}", callback_data=f'luciferGP#{file_id}')])
@@ -112,7 +112,7 @@ async def group_filters(client, update):
    
         buttons.append([InlineKeyboardButton(f"📃 1/{data['total']}",callback_data="pages"),
                         InlineKeyboardButton("🗑️", callback_data="close"),
-                        InlineKeyboardButton("➡",callback_data=f"nextgroup_0_{keyword}")])
+                        InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡",callback_data=f"nextgroup_0_{keyword}")])
 
         buttons.append([InlineKeyboardButton("🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")])
 
