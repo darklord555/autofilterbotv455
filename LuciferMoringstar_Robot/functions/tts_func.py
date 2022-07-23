@@ -21,16 +21,18 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
-# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
- 
-from .getsize_func import get_size 
-from .autofilter_func import split_list
-from .settings_func import get_settings, save_group_settings
-from .force_sub_func import is_subscribed
-from .fileID_func import get_file_id
-from .user_func import extract_user
-from .broadcast_func import send_msg
-from .imdb_func import get_poster
-from .fonts_func import Fonts
-from .tts import convert
+# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
+# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+
+from gtts import gTTS
+from io import BytesIO
+from googletrans import Translator
+
+def convert(text):
+    audio = BytesIO()
+    i = Translator().translate(text, dest="en")
+    lang = i.src
+    tts = gTTS(text, lang=lang)
+    audio.name = lang + ".mp3"
+    tts.write_to_fp(audio)
+    return audio

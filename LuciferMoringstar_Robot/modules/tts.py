@@ -21,16 +21,29 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
-# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
- 
-from .getsize_func import get_size 
-from .autofilter_func import split_list
-from .settings_func import get_settings, save_group_settings
-from .force_sub_func import is_subscribed
-from .fileID_func import get_file_id
-from .user_func import extract_user
-from .broadcast_func import send_msg
-from .imdb_func import get_poster
-from .fonts_func import Fonts
-from .tts import convert
+# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
+# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+
+from traceback import format_exc
+from pyrogram import Client, filters
+from asyncio import get_running_loop
+from LuciferMoringstar_Robot.functions import *
+
+@Client.on_message(filters.command("tts"))
+async def text_to_speech_en(_, message):
+    if not message.reply_to_message:
+        return await message.reply_text("**Reply To Same Text FFS**")
+    if not message.reply_to_message.text:
+        return await message.reply_text("**Reply To Same Text FFS**")
+    m = await message.reply_text("__Processing...⏳️__")
+    text = message.reply_to_message.text
+    try:
+        loop = get_running_loop()
+        audio = await loop.run_in_executor(None, convert, text)
+        await message.reply_audio(audio)
+        await m.delete()
+        audio.close()
+    except Exception as e:
+        await m.edit(e)
+        e = format_exc()
+        print(e)
