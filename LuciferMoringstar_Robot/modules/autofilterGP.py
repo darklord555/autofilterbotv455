@@ -58,7 +58,7 @@ async def group_filters(client, update):
                 filename = f"{file.file_name}"
                 
                 if settings["button"]:
-                    btn.append([InlineKeyboardButton(f"{filesize}-📂-{filename}", callback_data=f'luciferGP#{file_id}')])
+                    btn.append([InlineKeyboardButton(f"{filesize}-💠-{filename}", callback_data=f'luciferGP#{file_id}')])
                 else:                    
                     btn.append([InlineKeyboardButton(f"{filesize}", callback_data=f'luciferGP#{file_id}'),
                                 InlineKeyboardButton(f"{filename}", callback_data=f'luciferGP#{file_id}')])
