@@ -61,7 +61,7 @@ This methord works on any chat, Just type @shinobuxrai_bot and then leave a spac
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @rithesh_rkrm_17
 """
 
-ABOUT_MESSAGE = """𝙼𝚈 𝙽𝙰𝙼𝙴: {bot_name}
+ABOUT_MESSAGE = """
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/rithesh_rkrm_17>『ᴘɪʀᴏ』</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
