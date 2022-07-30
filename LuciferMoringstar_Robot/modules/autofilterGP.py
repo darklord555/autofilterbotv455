@@ -78,7 +78,7 @@ async def group_filters(client, update):
         else:
             buttons = btn
             buttons.append([InlineKeyboardButton("📃 Pages 1/1",callback_data="pages"),
-                            InlineKeyboardButton(f'📁 ᴛᴏᴛᴀʟ ғɪʟᴇs ={total_results}','dupe')])
+                            InlineKeyboardButton("🗑️", callback_data="close")])
 
             try:             
                 if settings["photo"]:
@@ -109,7 +109,7 @@ async def group_filters(client, update):
         buttons = data['buttons'][0].copy()
    
         buttons.append([InlineKeyboardButton(f"📃 1/{data['total']}",callback_data="pages"),
-                        InlineKeyboardButton(f'📁 ᴛᴏᴛᴀʟ ғɪʟᴇs ={total_results}','dupe'),
+                        InlineKeyboardButton("🗑️", callback_data="close"),
                         InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡",callback_data=f"nextgroup_0_{keyword}")])
 
         try:             

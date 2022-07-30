@@ -70,7 +70,7 @@ async def pm_filters(client, update):
             buttons = btn
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages"),
-                 InlineKeyboardButton(f'📁 ᴛᴏᴛᴀʟ ғɪʟᴇs ={total_results}','dupe')]
+                 InlineKeyboardButton("🗑️", callback_data="close")]
             )
 
 
@@ -89,7 +89,7 @@ async def pm_filters(client, update):
     
         buttons.append(
             [InlineKeyboardButton(text=f"📃 1/{data['total']}",callback_data="pages"),
-             InlineKeyboardButton(f'📁 ᴛᴏᴛᴀʟ ғɪʟᴇs ={total_results}','dupe'),
+             InlineKeyboardButton("🗑️", callback_data="close"),
              InlineKeyboardButton(text="ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡",callback_data=f"nextbot_0_{keyword}")]
         )
         
