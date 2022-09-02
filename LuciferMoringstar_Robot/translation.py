@@ -29,22 +29,22 @@ I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
 
 Its Easy To Use Me; Just Add Me To Your Group As Admin, 
 Thats All, i will Provide Movies There...🤓🤪
-
+Dear subscribers; Join our group and request there 
 
 ⚠️More Help Check Help Button Below
 
 
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @rithesh_rkrm_17"""
+©️powered Bʏ @hd_tamil_new_movie"""
 
 HELP_MESSAGE = """
     🙋🏻‍♂️   Hellooo  {mention} 🤓
 
-○  Tutorial video is here @rai_info17 
+○  Always join our main group @tamil_movie_request
 
-○  it's Note Complicated...🤓
+○  Don't spam our bot or else I will ban...🤓
 
 ○  Search using inline mode
-This methord works on any chat, Just type @shinobuxrai_bot and then leave a space and search any movie you want...
+This methord works on any chat, Just type @Tamil_movies_requestbot and then leave a space and search any movie you want...
 
 ○ Available Commands
      
@@ -58,11 +58,11 @@ This methord works on any chat, Just type @shinobuxrai_bot and then leave a spac
 
 ○Dont Spam Me...🤒
 
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @rithesh_rkrm_17
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @tamil_new_moviesadminbot
 """
 
 ABOUT_MESSAGE = """
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/rithesh_rkrm_17>『ᴘɪʀᴏ』</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/tamil_new_moviesadminbot>Android</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -106,7 +106,7 @@ NOT_SUB = """
 USAGE_MESSAGE = """
 🤠 🄷🄾🅆 🅃🄾 🅄🅂🄴
 
-[𝑯𝒐𝒘 𝒕𝒐 𝒈𝒆𝒕 𝒎𝒐𝒗𝒊𝒆𝒔/𝒔𝒆𝒓𝒊𝒆𝒔 𝒖𝒔𝒊𝒏𝒈 𝒎𝒆...!!!!!!](https://t.me/rai_info17)"""
+[𝑯𝒐𝒘 𝒕𝒐 𝒈𝒆𝒕 𝒎𝒐𝒗𝒊𝒆𝒔/𝒔𝒆𝒓𝒊𝒆𝒔 𝒖𝒔𝒊𝒏𝒈 𝒎𝒆...!!!!!!](https://t.me/tamil_movie_request)"""
 
 
 
