@@ -10,8 +10,8 @@
       "pyrogram",
       "bot"
     ],
-    "website": "https://github.com/ritheshrkrm17/LuciferMoringstar-Robot",
-    "repository": "https://github.com/ritheshrkrm17/LuciferMoringstar-Robot",
+    "website": "https://github.com/darklord555/autofilterbotv455",
+    "repository": "https://github.com/darklord555/autofilterbotv455",
     "env": {
         "API_HASH": {
             "description": "Get this value from :- https://youtu.be/5eEsvLAKVc0",
