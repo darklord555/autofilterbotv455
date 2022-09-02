@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
-# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Repo Link : https://github.com/darklord555/autofilterbotv455
+# License Link : https://github.com/darklord555/autofilterbotv455/blob/LuciferMoringstar-Robot/LICENSE
 
 import asyncio 
 from pyrogram import Client as lucifermoringstar_robot, enums
@@ -224,7 +224,7 @@ async def cb_handler(bot, update):
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/blasters_monthly") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/tnm_files") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
@@ -285,7 +285,7 @@ async def cb_handler(bot, update):
             title = files.file_name
             size = get_size(files.file_size)
             caption = CUSTOM_FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/blasters_monthly") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/tnm_files") ]]
             try:
                 await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons), protect_content=SAVE_FILES)            
             except Exception as e:
@@ -297,7 +297,7 @@ async def cb_handler(bot, update):
               
         elif update.data == "start":
             buttons = [[ InlineKeyboardButton("× 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ×", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ],
-                      [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"https://t.me/rai_info17"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/blasters_monthly") ],
+                      [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"https://t.me/tamil_movie_request"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/tnm_files") ],
                       [ InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"), InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃 🤠", callback_data="about") ]] 
             await update.message.edit(START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -328,7 +328,7 @@ async def cb_handler(bot, update):
                 pass
         elif update.data == "about":
             try:
-                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/ritheshrkrm17/LuciferMoringstar-Robot")],
+                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/darklord555/autofilterbotv455")],
                       [ InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start"), InlineKeyboardButton("𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴", callback_data="usage"), InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data="close") ]]                     
                 await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/ritheshrkrm17/LuciferMoringstar-Robot"), reply_markup=InlineKeyboardMarkup(buttons))
             except MessageNotModified:
