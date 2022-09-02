@@ -80,7 +80,7 @@ SPELLMODE_MESSAGE = """
 ɪ ᴅɪᴅɴᴛ ꜰɪɴᴅ {query} ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ...!!!! \nᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴇɴᴛᴇʀᴇᴅ ꜱᴘᴇʟʟɪɴɢ 😝 ᴏʀ ᴇʟꜱᴇ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴏɴ ᴏᴛᴛ ᴘʟᴀᴛꜰᴏʀᴍ.\nᴀꜱᴋ ʜᴇʀᴇ @raixpiro_bot"""
 
 REQUEST_MESSAGE = """
-🌚 ʜᴇʏ {mention} \n🔖 ʜᴇʀᴇ ɪꜱ ᴡʜᴀᴛ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ \n🔎 Qᴜᴇʀʏ - {query} \n©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @rai_info17 ⚡"""
+🌚 ʜᴇʏ {mention} \n🔖 ʜᴇʀᴇ ɪꜱ ᴡʜᴀᴛ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ \n🔎 Qᴜᴇʀʏ - {query} \n©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @hd_tamil_new_movie ⚡"""
 
 WELCOME_MESSAGE = """
 𝐇𝐞𝐲 𝐭𝐡𝐞𝐫𝐞 {mention}....!!!!!\n𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 {group_name} 💖"""
